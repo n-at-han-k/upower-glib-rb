@@ -1,0 +1,11 @@
+/.bundle/
+/pkg/
+/target/
+/tmp/
+/vendor/
+
+# `rake compile` installs the built object beside the library, which belongs to this machine's Ruby.
+/lib/upower_glib/*.so
+/lib/upower_glib/*.bundle
+/lib/upower_glib/*.dll
+*.gem
